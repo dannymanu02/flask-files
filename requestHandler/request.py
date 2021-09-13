@@ -1,7 +1,7 @@
 from flask import Flask, render_template
 import requests
 import json
-
+#this is a flask app
 app = Flask("__name__")
 
 @app.route("/")
